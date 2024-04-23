@@ -1,0 +1,53 @@
+fieldset{
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 5%;
+    background-color: rgba(255, 255, 255, 0.386)
+}
+legend{
+    font-size: xx-large;
+    color: black;
+    margin-left: 35%;
+}
+label{
+    margin-left: 30%;
+    color: white;
+    font-size: large;
+}
+input{
+    margin-left: 30%;
+    font-size: large;
+}
+h1{
+    text-decoration: underline;
+    text-align: center;
+    color: white;
+}
+body{
+    background-image: url('./form-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+a{
+    text-decoration: underline;
+    color: white;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+p{
+    text-align: center;
+}
+#nojoke{
+    color: red;
+    background-color: aliceblue;
+    font-size: large;
+    margin-left: 40%;
+    transition: 1s;
+}
+#nojoke:hover{
+    color: green;
+    transform: scale(1.1);
+    background-color: transparent;
+    border: white solid;
+    font-size: large;
+}
